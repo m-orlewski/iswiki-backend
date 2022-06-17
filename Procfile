@@ -1,1 +1,1 @@
-gunicorn backend/api.wsgi
+gunicorn backend.api.wsgi
