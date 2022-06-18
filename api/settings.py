@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-wtib%g7n$5##bcdgx^*jm8gc00dbl*$q*exftz-5=(5nuw3fqg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'iswiki-backend.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'iswiki-backend.herokuapp.com', 'iswiki.herokuapp.com']
 
 
 # Application definition
@@ -116,18 +116,18 @@ WSGI_APPLICATION = 'api.wsgi.application'
 
 
 DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / 'db.sqlite3',
-#    }
-
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd7do15vgjigbm7',
-        'HOST': 'ec2-34-242-8-97.eu-west-1.compute.amazonaws.com',
-        'PORT': 5432,
-        'USER': 'sjlsarjykskjqj',
-        'PASSWORD': '4f754a1fc59f8008e319937972762fcb0feb7d455c286ead67e2a22019d84e9e',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'd7do15vgjigbm7',
+#        'HOST': 'ec2-34-242-8-97.eu-west-1.compute.amazonaws.com',
+#        'PORT': 5432,
+#        'USER': 'sjlsarjykskjqj',
+#        'PASSWORD': '4f754a1fc59f8008e319937972762fcb0feb7d455c286ead67e2a22019d84e9e',
     }
 }
 
