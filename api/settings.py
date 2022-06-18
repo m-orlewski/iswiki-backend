@@ -88,6 +88,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
+    'https://iswiki.herokuapp.com'
 )
 
 ROOT_URLCONF = 'api.urls'
