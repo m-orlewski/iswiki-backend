@@ -40,7 +40,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     first_name = models.CharField(max_length=150)
     last_name = models.CharField(max_length=150)
     start_date = models.DateTimeField(default=timezone.now)
-    is_staff = models.BooleanField(default=False)
+    is_staff = models.BooleanField(default=True)
     is_active = models.BooleanField(default=True)
 
     objects = AccountManager()
