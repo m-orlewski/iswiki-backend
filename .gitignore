@@ -175,7 +175,6 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
-backend/db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
